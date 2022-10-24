@@ -1,12 +1,13 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "bettercooking",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Better Cooking",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "Maksym Shvedchenko",
+    "Michael Bolshakov"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,11 +20,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.mandm.bettercooking.BetterCookingMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "bettercooking.mixins.json"
   ],
 
   "depends": {
